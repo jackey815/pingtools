@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <title>Ping主机</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="my-fixed my-center" style="top: 0%;">
+      <input type="text" id="txt" class="my-input" placeholder="导入txt" >
+      <input type="button" id="file" class="my-btn my-btn-black" value="导入" >
+      <p id="txt_file"></p>
+      <input type="text" id="hour" class="my-input" style="width: 68px" placeholder="小时" >
+      <input type="text" id="t" class="my-input" style="width: 68px" placeholder="分钟" >
+      <input type="button" id="clock" class="my-btn my-btn-black" value="定时" >
+      <p id="sy"></p>
+      <textarea class="my-input" id="output" style="margin: 0px; height: 185px; width: 228px; resize:none;"></textarea>
+    </br>
+      <input type="button" id="save" class="my-btn my-btn-black" value="保存配置">
+      <input type="button" id="out" class="my-btn my-btn-black" value="导出">
+</div>
+
+  <script src="./js/clock.js"></script>
+  
+</body>
+</html>

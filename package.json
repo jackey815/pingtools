@@ -1,0 +1,22 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "Ping ip",
+  "repository": "electron/ping",
+  "author": "Jackey",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "package": "electron-packager . --overwrite --platform=win32 --arch=ia32 --out=out --icon=./icon.ico"
+  },
+  "license": "Q",
+  "devDependencies": {
+    "electron-packager": "^12.1.0",
+    "electron-winstaller": "^2.2.0"
+  },
+  "dependencies": {
+    "electron": "^4.0.1",
+    "fast-csv": "^3.0.1",
+    "ping": "^0.2.2"
+  }
+}
