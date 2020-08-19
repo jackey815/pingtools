@@ -15,7 +15,7 @@
     "electron-winstaller": "^2.2.0"
   },
   "dependencies": {
-    "electron": "^4.0.1",
+    "electron": ">=7.2.4"
     "fast-csv": "^3.0.1",
     "ping": "^0.2.2"
   }
